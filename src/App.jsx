@@ -5,7 +5,7 @@ import Footer from "./Footer"
 import Aditya from "./aditya"
 import Aman from "./Aman"
 
-import Members from "./Members"
+import Members from "./components/members/Members";
 function App() {
 
   return (
@@ -16,8 +16,8 @@ function App() {
       <Footer />
       < Aditya />
       <Aman />
-<Members />
-     
+      <Members />
+
     </div>
   );
 }

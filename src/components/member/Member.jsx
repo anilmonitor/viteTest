@@ -1,15 +1,15 @@
 import "./Members.css";
-import amanImg from "./assets/aman.jpg";
 
-function Members() {
+
+function Members({name, age = 100, img ,branch="ECE"}) {
     return (
         <div className="members-section">
             <div className="member-card">
-                <img src={amanImg} alt="Aman Sharma" className="member-img" />
+                <img src={img} alt="Aman Sharma" className="member-img" />
 
-                <h3>Aman Sharma</h3>
-                <p className="role">Technical Head</p>
-                <p className="sub-role">CSE • Ramgarh Engineering College</p>
+                <h3>{name}</h3>
+                <p className="role"> Age: {age}</p>
+                <p className="sub-role">{branch} • Ramgarh Engineering College</p>
 
                 <div className="social-icons">
                     <a href="mailto:aman@gmail.com">
