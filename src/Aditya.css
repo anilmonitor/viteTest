@@ -1,0 +1,39 @@
+/* Container styling */
+.aditya-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  border-radius: 12px;
+
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading */
+.aditya-container h1 {
+  font-size: 32px;
+  color: #38bdf8;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+/* Paragraph */
+.aditya-container p {
+  font-size: 16px;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .aditya-container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .aditya-container h1 {
+    font-size: 26px;
+  }
+}
