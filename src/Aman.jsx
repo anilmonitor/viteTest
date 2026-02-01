@@ -1,8 +1,12 @@
+import "./Aditya.css"
+
+// import "./Aditya.css";
+
 function AMAN() {
 
 
     return (
-        <div>
+        <div className="aditya-container">
 
             <h1>About Aman</h1>
     
