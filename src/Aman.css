@@ -1,0 +1,72 @@
+/* Center wrapper */
+.profile-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+/* Card */
+.profile-card {
+  width: 350px;
+  background: #020617;
+  color: #e5e7eb;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Profile image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #38bdf8;
+  margin-bottom: 15px;
+}
+
+/* Name */
+.profile-card h1 {
+  font-size: 26px;
+  margin-bottom: 4px;
+  color: #38bdf8;
+}
+
+/* Role */
+.role {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+/* Bio */
+.bio {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Social links */
+.social-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #020617;
+  background: #38bdf8;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}
