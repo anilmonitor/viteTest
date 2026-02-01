@@ -3,9 +3,7 @@ import './App.css'
 import Anil from "./Anil"
 import Footer from "./Footer"
 import Aditya from "./aditya"
-
-
-
+import Aman from "./Aman"
 function App() {
 
   return (
@@ -13,8 +11,9 @@ function App() {
       <Anil />
       <Footer />
       < Aditya />
-       <Footer />
+      <Footer />
       < Aditya />
+      <Aman />
     </div>
   );
 }
