@@ -1,7 +1,7 @@
 import "./Members.css";
 
 
-function Members({name, age = 100, img ,branch="ECE"}) {
+function Members({name, age = 100, img ,branch="ECE", gender, email}) {
     return (
         <div className="members-section">
             <div className="member-card">
@@ -9,6 +9,12 @@ function Members({name, age = 100, img ,branch="ECE"}) {
 
                 <h3>{name}</h3>
                 <p className="role"> Age: {age}</p>
+                 <p className="role"> Gender: {gender}</p>
+
+                   <p className="role"> Email: {email}</p>
+        
+
+
                 <p className="sub-role">{branch} • Ramgarh Engineering College</p>
 
                 <div className="social-icons">
