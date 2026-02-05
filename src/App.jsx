@@ -4,7 +4,7 @@ import Anil from "./Anil"
 import Footer from "./Footer"
 import Aditya from "./aditya"
 import Aman from "./Aman"
-
+import Card from "./components/amazonCard/Card";
 import Members from "./components/members/Members";
 function App() {
 
@@ -18,7 +18,9 @@ function App() {
       <Aman />
       <Members />
 
-  
+      <Card />
+
+
     </div>
   );
 }
