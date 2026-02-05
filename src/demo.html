@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Footer - REC Student Portal</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+<style>
+:root{
+  --primary:#1e2a78;
+  --secondary:#0b1a4a;
+  --glass:rgba(255,255,255,0.08);
+  --border:rgba(255,255,255,0.18);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body{
+  background:#f5f7fb;
+}
+
+footer{
+  background:linear-gradient(135deg,var(--secondary),var(--primary));
+  color:#fff;
+  padding:60px 8% 20px;
+}
+
+/* GRID */
+.footer-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:30px;
+}
+
+/* CARD */
+.footer-card{
+  background:var(--glass);
+  backdrop-filter:blur(10px);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:25px;
+  transition:0.4s ease;
+  text-align:center;
+}
+
+.footer-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 20px 40px rgba(0,0,0,0.25);
+}
+
+/* ICON */
+.footer-icon{
+  font-size:32px;
+  margin-bottom:15px;
+  color:#4dd0ff;
+}
+
+/* TEXT */
+.footer-card h3{
+  font-size:18px;
+  margin-bottom:10px;
+}
+
+.footer-card p,
+.footer-card a{
+  font-size:14.5px;
+  color:#e6e9ff;
+  line-height:1.7;
+  text-decoration:none;
+}
+
+/* SOCIAL */
+.social-icons{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  margin-top:10px;
+}
+
+.social-icons a{
+  width:45px;
+  height:45px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(255,255,255,0.15);
+  transition:0.4s;
+  font-size:18px;
+}
+
+.social-icons a:hover{
+  background:#4dd0ff;
+  color:#000;
+  transform:scale(1.1);
+}
+
+/* BOTTOM BAR */
+.footer-bottom{
+  margin-top:40px;
+  padding-top:15px;
+  border-top:1px solid rgba(255,255,255,0.2);
+  text-align:center;
+  font-size:14px;
+  color:#cfd6ff;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+  footer{
+    padding:40px 6% 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<footer>
+  <div class="footer-grid">
+
+    <!-- ADDRESS -->
+    <div class="footer-card">
+      <div class="footer-icon"><i class="fa-solid fa-location-dot"></i></div>
+      <h3>Address</h3>
+      <p>
+        324, Ramgarh Engineering College<br>
+        Murubanda, Ramgarh<br>
+        Jharkhand
+      </p>
+    </div>
+
+    <!-- EMAIL -->
+    <div class="footer-card">
+      <div class="footer-icon"><i class="fa-solid fa-envelope"></i></div>
+      <h3>Email</h3>
+      <p>
+        <a href="mailto:recstudentportal@gmail.com">
+          recstudentportal@gmail.com
+        </a>
+      </p>
+    </div>
+
+    <!-- PHONE -->
+    <div class="footer-card">
+      <div class="footer-icon"><i class="fa-solid fa-phone"></i></div>
+      <h3>Contact</h3>
+      <p>
+        +91 6200964848<br>
+        +91 7260014902
+      </p>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-card">
+      <div class="footer-icon"><i class="fa-solid fa-share-nodes"></i></div>
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      </div>
+      <p style="margin-top:10px;">@recstudentportal</p>
+    </div>
+
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="footer-bottom">
+    © REC Student Portal, 2026 • Designed with ❤️
+  </div>
+</footer>
+
+</body>
+</html>
