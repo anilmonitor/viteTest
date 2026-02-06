@@ -15,7 +15,7 @@ function Members() {
                 <Member name="Soni Kumari" age={20} img="https://recstudentportal.com/udaanmembers/profile/aman.jpeg" branch="CSE" />
                 <Member name="ANIL  Kumar" age={22} img="https://recstudentportal.com/udaanmembers/profile/alok.jpeg" branch="CSE" />
 
-                <Member name="Ankit  Mandal" age={21} img="src/assets/mandal.jpeg" branch="CSE" gender="Male" email="bm@gmail.com" />
+                <Member name="Ankit  Mandal" age={21} img="src/assets/mandal.jpg" branch="CSE" gender="Male" email="bm@gmail.com" />
 
 
                 <Member name="Soni Kumari" age={20} img="https://recstudentportal.com/udaanmembers/profile/soni.jpeg" branch="CSE" />
