@@ -9,6 +9,9 @@ let CardTemplate = ({ heading, about, price, list, obj }) => {
             <h1>{heading}</h1>
             <p>{about}</p>
             <p>{price}</p>
+            {/* { price > 30000 && <p>5% discount</p>} */}
+            {price > 30000 ? <p>5% discount</p> : <a href="#">Get discount</a>}
+
 
             {/* for rendering array  */}
             {list && (
@@ -20,7 +23,7 @@ let CardTemplate = ({ heading, about, price, list, obj }) => {
             )}
 
 
-{/* for rendering object  */}
+            {/* for rendering object  */}
 
             {obj && (
                 <>
