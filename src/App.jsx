@@ -20,7 +20,9 @@ function App() {
       <Aman />
       <Members />
       <Card />
-      <SayHello BgColor="yellow" age={22} userName="Aman" />
+      <SayHello BgColor="yellow" age={20} userName="Aman" />
+      <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" />
+
     </div>
   );
 }
