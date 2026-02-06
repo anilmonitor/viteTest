@@ -6,6 +6,8 @@ import Aditya from "./aditya"
 import Aman from "./Aman"
 import Card from "./components/amazonCard/Card";
 import Members from "./components/members/Members";
+import SayHello from "./components/hello/SayHello";
+
 function App() {
 
   return (
@@ -17,10 +19,8 @@ function App() {
       < Aditya />
       <Aman />
       <Members />
-
       <Card />
-
-
+      <SayHello BgColor="yellow" age={22} userName="Aman" />
     </div>
   );
 }
