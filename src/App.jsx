@@ -20,10 +20,7 @@ function App() {
       <Aman />
       <Members />
       <Card />
-          <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" />
-      <SayHello BgColor="yellow" age={20} userName="Aman" sub={["DBMS", "DSA", "MATHS", "OOPs", "Professional Skill"]}/>
-  
-
+      <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" />
     </div>
   );
 }
