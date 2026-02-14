@@ -35,4 +35,17 @@ let reduceRes = array.reduce(function (MAX, current) {
     }
     return MAX;
 }, 0);
-console.log(reduceRes)
+// console.log(reduceRes)
+
+
+const users = [
+    { firstName: "rohit", lastName: "sharma", age: 32 },
+    { firstName: "priya", lastName: "verma", age: 24 },
+    { firstName: "arjun", lastName: "kapoor", age: 41 },
+    { firstName: "sneha", lastName: "mehta", age: 29 },
+];
+
+//suppose i want firstName and last name then we will use map()
+
+const result = users.map(e =>( e.firstName + " " +  (e.lastName)).toUpperCase());
+console.log(result);
