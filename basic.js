@@ -6,12 +6,14 @@ function ok(x) {
 }
 
 let res = array.map(ok);
-console.log(res)
+// console.log(res)
 
 // or  --> via arrow function
-let res2 = array.map(e => e * 2);
-console.log()
-console.log(res2);
+let res2 = array.map(e => e*2);
+// console.log(res2);
 
 
 
+// filter() method 
+let filres = array.filter(e => (e%2 != 0)); //give odd number
+console.log(filres);
