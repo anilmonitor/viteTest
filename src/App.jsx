@@ -7,12 +7,14 @@ import Aman from "./Aman"
 import Card from "./components/amazonCard/Card";
 import Members from "./components/members/Members";
 import SayHello from "./components/hello/SayHello";
+import Event from "./components/event/Event";
+
 
 function App() {
 
   return (
     <div>
-      <Anil />
+      {/* <Anil />
       <Footer />
       < Aditya />
       <Footer />
@@ -20,7 +22,10 @@ function App() {
       <Aman />
       <Members />
       <Card />
-      <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" />
+      <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" /> */}
+
+
+      <Event />
     </div>
   );
 }

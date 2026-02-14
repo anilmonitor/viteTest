@@ -30,7 +30,6 @@ let CardTemplate = ({ heading, about, price, list, obj, features }) => {
 
 
             {/* for rendering object  */}
-
             {obj && (
                 <>
 
