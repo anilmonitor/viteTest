@@ -17,3 +17,10 @@ let res2 = array.map(e => e*2);
 // filter() method 
 let filres = array.filter(e => (e%2 != 0)); //give odd number
 console.log(filres);
+
+// or 
+function greaterthan4(x){
+    return x>4; //it will filter the all value greate then 4 and give us
+}
+let filres2 = array.filter(greaterthan4);
+console.log(filres2);
