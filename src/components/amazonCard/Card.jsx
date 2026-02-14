@@ -2,6 +2,7 @@ import CardTemplate from "./CardTemplate";
 
 let Card = () => {
     let ar = ["Anil", "Rahul"];
+    let features = [<li>Good</li>, <li id="2">Recomended</li>]
     let objectPass = { a: "I am RAJ", b: "I love ANKIT MANDAL" };
     return (
         <>
@@ -10,6 +11,7 @@ let Card = () => {
                 price={30000}
                 about="I am Card "
                 obj={objectPass}
+                features={features}
             />
             <CardTemplate
                 heading="Laptop"

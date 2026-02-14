@@ -47,5 +47,5 @@ const users = [
 
 //suppose i want firstName and last name then we will use map()
 
-const result = users.map(e =>( e.firstName + " " +  (e.lastName)).toUpperCase());
+const result = users.map(e => (e.firstName + " " + (e.lastName)).toUpperCase());
 console.log(result);

@@ -9,7 +9,7 @@ function Members() {
         <>
             <div className="membersCard">
 
-                <Member name="ANIL  Kumar" email="anilarangi6@gmail.com" gender="female" age={22} img="https://recstudentportal.com/udaanmembers/profile/anil.jpeg" branch="CSE" />
+                <Member name="ANIL  Kumar" email="anilarangi6@gmail.com" gender="female" age={22} img="https://recstudentportal.com/udaanmembers/profile/anil.jpeg" branch="CSE"  food={["Aalu", "Tomato", "Potato"]}/>
                 <Member name="ANIL  Kumar" age={22} img="https://recstudentportal.com/udaanmembers/profile/sonali.jpeg" branch="CSE" />
 
                 <Member name="Soni Kumari" age={20} img="https://recstudentportal.com/udaanmembers/profile/aman.jpeg" branch="CSE" />
