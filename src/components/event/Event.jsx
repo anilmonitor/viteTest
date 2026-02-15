@@ -84,6 +84,12 @@ export default function Event() {
 // onTouchCancel – Jab touch interrupt ho jaye
 
 
+// 🎥 Media Events
+// onPlay – Jab media play hota hai
+// onPause – Jab media pause hota hai
+// onEnded – Jab media end ho jata hai
+// onVolumeChange – Jab volume change hota hai
+// onTimeUpdate – Jab media ka current time change hota hai
 
 
 
