@@ -17,11 +17,16 @@ function handleDoubleClick() {
 
 }
 
-function handleKeyDown(e){
+function handleKeyDown(e) {
     console.log("Pressed key:", e.key);
+    console.log(e); //event Object
 };
 
-
+//Form event 
+function handleformSubmit(event) {
+    event.preventDefault();
+    console.log("Form submitted!!", event);
+}
 export default function Event() {
     return (
         <div className="cont" style={{ color: "red" }}>
@@ -33,12 +38,36 @@ export default function Event() {
 
             <input
                 type="text"
-                onKeyDown={handleKeyDown}
+                onKeyUp={handleKeyDown}
                 placeholder="Type something..."
             />
+
+            <form onSubmit={handleformSubmit} style={{ border: "1px solid red", padding: "20px" }} >
+                <input type="text" placeholder="Enter text" />
+                <button >Submit form </button>
+            </form>
         </div>
     )
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // 🖱️ Mouse Events
