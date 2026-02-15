@@ -14,6 +14,7 @@ function handleHover(){
 
 function handleDoubleClick(){
     console.log("You double click me!!");
+
 }
 export default function Event() {
     return (
@@ -26,3 +27,29 @@ export default function Event() {
         </div>
     )
 };
+
+
+// 🖱️ Mouse Events
+// onClick – Jab element par single click hota hai
+// onDoubleClick – Jab element par double click hota hai
+// onMouseDown – Jab mouse button press hota hai
+// onMouseUp – Jab mouse button release hota hai
+// onMouseEnter – Jab mouse element ke andar aata hai
+// onMouseLeave – Jab mouse element se bahar jata hai
+// onMouseMove – Jab mouse element ke upar move karta hai
+// onMouseOver – Jab mouse element ya uske child par aata hai
+// onMouseOut – Jab mouse element ya uske child se bahar jata hai
+// onContextMenu – Jab right-click hota hai
+
+
+
+
+
+
+
+
+
+
+
+
+
