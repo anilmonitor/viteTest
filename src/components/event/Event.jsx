@@ -65,6 +65,17 @@ export default function Event() {
 
 
 
+// 🎯 Drag & Drop Events
+// onDrag – Jab element drag ho raha ho
+// onDragStart – Jab drag start hota hai
+// onDragEnd – Jab drag khatam hota hai
+// onDragEnter – Jab dragged element target me enter karta hai
+// onDragLeave – Jab dragged element target se bahar jata hai
+// onDragOver – Jab dragged element target ke upar ho
+// onDrop – Jab element drop hota hai
+
+
+
 
 
 
