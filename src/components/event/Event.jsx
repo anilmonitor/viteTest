@@ -57,6 +57,11 @@ export default function Event() {
 // onInvalid – Jab form validation fail hoti hai
 // onReset – Jab form reset hota hai
 
+// 📦 Clipboard Events
+// onCopy – Jab text copy hota hai
+// onCut – Jab text cut hota hai
+// onPaste – Jab text paste hota hai
+
 
 
 
