@@ -77,6 +77,12 @@ export default function Event() {
 
 
 
+// 📱 Touch Events (Mobile)
+// onTouchStart – Jab finger screen ko touch karti hai
+// onTouchMove – Jab finger move karti hai
+// onTouchEnd – Jab finger hata di jati hai
+// onTouchCancel – Jab touch interrupt ho jaye
+
 
 
 
