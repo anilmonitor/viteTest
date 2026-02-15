@@ -92,4 +92,13 @@ export default function Event() {
 // onTimeUpdate – Jab media ka current time change hota hai
 
 
+// 🖼️ Image Events
+// onLoad – Jab image load ho jaye
+// onError – Jab image load fail ho jaye
+
+
+// 🪟 Window / UI Events
+// onScroll – Jab scroll hota hai
+// onResize – Jab window resize hoti hai
+// onLoad – Jab page fully load ho jaye
 
