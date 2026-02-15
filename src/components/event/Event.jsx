@@ -42,6 +42,10 @@ export default function Event() {
 // onContextMenu – Jab right-click hota hai
 
 
+// ⌨️ Keyboard Events
+// onKeyDown – Jab key press hoti hai
+// onKeyUp – Jab key release hoti hai
+// onKeyPress – Jab key press detect hoti hai (deprecated but still seen)
 
 
 
