@@ -48,6 +48,14 @@ export default function Event() {
 // onKeyPress – Jab key press detect hoti hai (deprecated but still seen)
 
 
+// 📝 Form Events
+// onChange – Jab input ka value change hota hai
+// onInput – Jab input field me typing hoti hai
+// onSubmit – Jab form submit hota hai
+// onFocus – Jab input focus me aata hai
+// onBlur – Jab input se focus hat jata hai
+// onInvalid – Jab form validation fail hoti hai
+// onReset – Jab form reset hota hai
 
 
 
