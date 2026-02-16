@@ -1,4 +1,5 @@
 import CardTemplate from "./CardTemplate";
+// import { useEffect } from "react";
 
 let Card = () => {
     let ar = ["Anil", "Rahul"];
