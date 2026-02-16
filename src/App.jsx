@@ -8,7 +8,7 @@ import Card from "./components/amazonCard/Card";
 import Members from "./components/members/Members";
 import SayHello from "./components/hello/SayHello";
 import Event from "./components/event/Event";
-import USEState from "./components/state/USEeffect";
+import USEState from "./components/state/USEState";
 
 function App() {
 

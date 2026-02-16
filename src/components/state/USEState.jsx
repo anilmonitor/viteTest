@@ -18,7 +18,7 @@ function USEState() {
       <button
         onClick={() => {
           const updated = Click.map((person, index) =>
-            index === 1 ? { person, name: "Someone" } : person
+            index === 1 ? { ...person, name: "Someone" } : person
           );
           setClick(updated);
         }}>
