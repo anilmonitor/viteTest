@@ -23,10 +23,11 @@ let CardTemplate = ({ heading, about, price, list, obj, features }) => {
             {price > 30000 ? <p style={style}>5% discount</p> : <a href="#">Get discount</a>}
 
 
-            {/* for rendering array */}
+            {/* for rendering array */} 
             <div>
-                {list?.map((e) => <li>{e}</li>)}
-            </div>
+                {list?.map((e, index) => <li key={index}>{e}</li>)} 
+            </div> 
+            {/* Never use index as key above, make a key using uuid */}
 
 
             {/* for rendering object  */}

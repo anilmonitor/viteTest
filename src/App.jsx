@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      {/* <Anil />
+      <Anil />
       <Footer />
       < Aditya />
       <Footer />
@@ -22,7 +22,7 @@ function App() {
       <Aman />
       <Members />
       <Card />
-      <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" /> */}
+      <SayHello BgColor="pink" age={22} userName="ANIL MONITOR" />
 
 
       <Event />
