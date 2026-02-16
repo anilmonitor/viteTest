@@ -2,7 +2,7 @@ import CardTemplate from "./CardTemplate";
 
 let Card = () => {
     let ar = ["Anil", "Rahul"];
-    let features = [<li>Good</li>, <li id="2">Recomended</li>]
+    let features = [<li key={1}>Good</li>, <li key={2}>Recomended</li>]
     let objectPass = { a: "I am RAJ", b: "I love ANKIT MANDAL" };
     return (
         <>
