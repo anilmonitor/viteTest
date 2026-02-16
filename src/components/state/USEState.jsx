@@ -21,7 +21,9 @@ function USEState() {
             index === 1 ? { ...person, name: "Someone" } : person
           );
           setClick(updated);
-        }}>
+        }}
+
+      >
 
         Click me  </button>
 
